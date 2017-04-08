@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="LightController.jar" size="8880" download="eager" />
+    <jar href="LightController.jar" size="8728" download="eager" />
     <jar href="lib\javax.ws.rs.jar" size="46367" download="eager" />
     <jar href="lib\org.json.jar" size="49176" download="eager" />
     <jar href="lib\org.restlet.jar" size="713732" download="eager" />
