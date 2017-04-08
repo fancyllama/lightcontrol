@@ -76,7 +76,6 @@ public class LightController extends Application {
                 CharSequence username = userTextField.getCharacters();
                 CharSequence pw = pwBox.getText();
                 
-                connectingView(primaryStage);
                 
                 //TODO:validate password and stuff
                 /*if(hook.hookRestLogin(username, pw))
@@ -89,22 +88,7 @@ public class LightController extends Application {
             }
         });
     }
-    public void connectingView(Stage primaryStage)
-    {
-        GridPane grid = new GridPane();
-        grid.setAlignment(Pos.CENTER);
-        grid.setHgap(10);
-        grid.setVgap(10);
-        grid.setPadding(new Insets(10, 10, 10, 10));
-        Scene scene = new Scene(grid, 300, 275);
-        
-        Text scenetitle = new Text("Connecting to Server...");
-        scenetitle.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20));
-        grid.add(scenetitle, 0, 0, 2, 1);
-        
-        primaryStage.setScene(scene);
-        primaryStage.show();
-    }
+
     public void home(Stage primaryStage)
     {        
         //control
