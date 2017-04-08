@@ -1,9 +1,9 @@
 # NetBeans specific #
 nbproject/private/
-build/
+build/*
 nbbuild/
-dist/
-nbdist/
+dist/*
+nbdist/*
 nbactions.xml
 nb-configuration.xml
 
@@ -14,3 +14,6 @@ nb-configuration.xml
 *.jar
 *.war
 *.ear
+
+#restlet library#
+restlet-jse-2.3.9/*
